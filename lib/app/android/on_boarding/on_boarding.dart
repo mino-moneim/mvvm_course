@@ -12,9 +12,8 @@ class OnBoarding extends StatefulWidget {
 class _OnBoardingState extends State<OnBoarding> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: ColorManager.darkPrimary,
-      body: const Center(
+    return const Scaffold(
+      body: Center(
         child: Text('on boarding'),
       ),
     );
